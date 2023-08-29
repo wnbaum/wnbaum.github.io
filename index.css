@@ -27,7 +27,8 @@ p {
 }
 
 :root {
-	margin: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .container {
@@ -40,6 +41,7 @@ p {
 nav a {
 	color: black;
 	margin: 20px;
+	font-size: 24px;
 }
 
 nav {
@@ -47,6 +49,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	width: 100vw;
+	background: white;
 }
 
 section {
