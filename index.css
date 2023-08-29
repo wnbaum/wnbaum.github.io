@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+ol {
+	margin-left: 40px;
+}
+
+li {
+	margin-top: 20px;
+}
+
+p {
+	margin-top: 10px;
+}
+
+:root {
+	margin: 20px;
+}
+
+.container {
+	min-height: 100vh;
+	padding-top: 100px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+nav a {
+	color: black;
+	margin: 20px;
+}
+
+nav {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+}
+
+section {
+	display: none;
+} 
+
+/* Styles applied on trigger */
+section:target {
+	display: block;
+}
